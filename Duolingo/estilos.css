@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Inter', sans-serif; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.top-bar {
+    background-color: #235390;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin: 15px;
+}
+
+.top-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 153px;
+    height: 36px;
+    top: 18px;
+    left: 227px;
+}
+
+.language-selector {
+    background-color: #235390;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.language-selector .arrow-icon {
+    margin-left: 8px;
+    width: 12px;
+    height: 6px;
+}
+
+.learn-language {
+    color: #FFFFFF;
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.learn-language .second-line {
+    padding-left: 40px;
+}
+
+.fundo-universo {
+    width: 100%;
+    height: 785px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #235390;
+    background-image: url(imagens/estrelas.svg);
+
+}
+
+.universo {
+    display: flex;
+    width: 90%;
+    padding: 0px;
+    justify-content: space-around;
+    margin-right: 140px;
+}
+
+.get-started {
+    width: Hug (320px)px;
+    height: Hug (50px)px;
+    top: 130px;
+    left: 196px;
+    padding: 11.5px 110px 20px 111px;
+    gap: 0px;
+    border-radius: 16px;
+    background-color: #58CC02;
+    box-shadow: 0px 4px 0px 0px #58A700;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.have-account {
+    width: Hug (320px)px;
+    height: Hug (50px)px;
+    top: 192px;
+    left: 196.78px;
+    padding: 12.5px 50.41px 19.5px 50.59px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    background-color: #235390;
+    box-shadow: 0px 4px 0px 0px #042C60;
+    border-radius: 16px;
+
+}
+
+.mundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.linguagens {
+    width: 100%;
+    height: 74px;
+    background: #0A4A82;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    /* position: absolute; */
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idiomas {
+    word-spacing: 80px;
+    margin-left: 110px;
+}
+
+.flechas {
+    width: 22px;
+    height: 22px;
+    top: 26px;
+    left: 982px;
+    margin: 0px 60px 0px 0px;
+}
+
+.fundo-branco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.box-coruja {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coruja {
+    width: 200px;
+}
+
+.texto-coruja {
+    width: 100%;
+    margin-left: 50px;
+}
+
+h1 {
+    height: 26px;
+    left: 1.3px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #3C3C3C;
+
+}
+
+.research {
+    width: 100%;
+    height: 51px;
+    top: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #777777;
+
+}
+
+.research span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.5px;
+    text-align: left;
+    color: #777777;
+    text-decoration: underline;
+}
+
+.linha {
+    color: #E5E5E5;
+    width: 1000px;
+    border: solid;
+}
+
+.segunda-div {
+    width: 100%;
+}
+
+h2 {
+    margin: 40px;
+    text-align: center;
+    height: 26px;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3C3C3C;
+}
+
+.div-principal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.imagem-central {
+    width: 240px;
+    height: 160px;
+}
+
+.fogo-ok {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+}
+
+.fogo {
+    width: 100%;
+    display: flex;
+}
+
+
+.ok {
+    display: flex;
+    width: 100%;
+}
+
+.imagem-ok {
+    margin-right: 10px;
+}
+
+.imagem-fogo {
+    margin-right: 10px;
+}
+
+.coroa-motivado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.coroa {
+    display: flex;
+    width: 100%;
+}
+
+.motivado {
+    display: flex;
+}
+
+.imagem-coroa {
+    margin-right: 10px;
+}
+
+.imagem-motivado {
+    margin-right: 10px;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 181px;
+    height: 20px;
+}
+
+.box-coruja2 {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coruja2 {
+    width: 200px;
+}
+
+.texto-corujadois {
+    width: 100%;
+    margin-left: 50px;
+    color: #777777;
+    margin-right: 180px;
+
+}
+
+.texto2 {
+    width: 100%;
+    height: 51px;
+    top: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #777777;
+
+}
+
+.more-about {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #1CB0F6;
+}
+
+.box-corujamochila {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mochila {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.box {
+    width: 100%;
+    margin-left: 50px;
+    color: #777777;
+    margin-right: 180px;
+
+}
+
+.sociais {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.redes {
+    width: 200px;
+    height: 68px;
+    border-radius: 16px;
+    border: 2px;
+    background: #FFFFFF;
+    border: solid #E5E5E5;
+    box-shadow: 0px 2px 0px 0px #E5E5E5;
+    justify-items: center;
+    display: flex; 
+    
+}
+
+.pequeno {
+    size: 100%;
+    width: 150px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    margin: 10px 
+}
+
+.titulo {
+    size: 100%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    width: 120px;
+    height: 20px;
+    color: #4B4B4B;
+    margin-left: 10px;
+    display: flex;   
+    margin-top: -15px; 
+
+}
+
+.apple {
+    margin: 10px;    
+}
+
+.googleplay {
+    margin: 10px;
+   
+}
+.espaco{
+    margin-left: 15px;
+}
+.corujaflor{
+   margin-right: 400px;
+}
+.texto-welcome{
+    margin-top: 10px;
+}
+.texto-welcome p{
+    margin-top: 10px;
+}
+.box-content{
+    margin: 10px;
+}
+footer{
+    height: 903px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #042C60;
+    background-image: url("imagens/estrelas.svg");
+}
+.head-foooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 190px;   
+
+}
+.head-foooter .content-head{
+    display: flex;
+    
+}
+.head-foooter .content-head h2{
+    margin: 30px;
+    color: white;
+    padding: 0;    
+}
+.head-foooter .content-head button{
+    margin: 0px;
+    padding: 20px;
+    height: 35px;
+    position: relative;
+    top: 25px;
+    left: 0;
+    line-height: 0;
+    border: none;
+}
+.pai-nav-links{
+    height: 400px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.master-links{
+    display: flex;    
+}
+.link-nav{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;    
+}
+.link-nav h4{
+    color: white;
+    margin-bottom: 20px;
+}
+.link-nav a{
+    color: rgba(165, 150, 150, 0.481);
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+.footer-end .idiomas a{   
+    text-decoration: none;
+    color: rgba(165, 150, 150, 0.481);
+
+}
+.footer-end .idiomas h4{    
+    color: white;
+    margin-bottom: 15px;   
+
+}
